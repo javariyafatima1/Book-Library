@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <input type="checkbox" id="chk" aria-hidden="true">
+
+    <div class="signup">
+      
+        <label for="chk">Sign up</label>
+<input type="text" placeholder="User Name" id="username" >
+<input type="email" placeholder="Enter your Email@Address" id="email" >
+<input type="password" placeholder="Enter Password" id="password">
+ 
+<button id="singBtn" >submint</button>
+</div>
+<div class="login">
+     
+  <label for="chk" aria-hidden="">Login</label>
+    </br>
+ <h2 id="h2"> Email Id:</h2>
+        
+<input type="text" placeholder="Enter your Email@Address" id="mail"></input> </br>
+<h2 id="h2"> password:</h2>
+<input type="password" placeholder="Enter password" id="word"></input>
+<button id="loginBtn">login</button>
+     
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script  type="module" src="./login.js" ></script>
+  <script  type="module" src="./reg.js" ></script>
+  
+</body>
+
+</html>

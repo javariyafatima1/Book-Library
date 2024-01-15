@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+
+            <div class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact us</li>
+                    <a href="./form.html">
+                        <li>Registration </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <h1>Books Library</h1>
+        <h2 id="all">All Books Show</h2>
+        <div style="display: flex;">
+            <div id="imageContainer"></div>
+            <div>
+                <table border="1px solid red" id="table">
+                    <thead>
+                        <tr style="height: 50px;">
+                            <th>Count</th>
+                            <th>Title</th>
+                            <th>Price</th>
+                            <th>AuturName</th>
+                        </tr>
+                    </thead>
+                    <tbody style="height: 55px;" id="ti">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script type="module" src="./allbooks.js"></script>
+</body>
+
+</html>
