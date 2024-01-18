@@ -148,6 +148,7 @@ h1 {
         
         background-color: #f7f8f9;
         width: 180%;
+	
         margin-left: 10px;
     
         
@@ -158,6 +159,19 @@ h1 {
 		background:  url(https://www.neh.gov/sites/default/files/styles/medium/public/2018-06/openbooks.jpg?itok=CS057GV-) no-repeat;
 		background-size: cover;
 		height: 1200px;
+		width: 53%;
+		
+	}
+	h1 {
+
+		font-size: 25px;
+		color: blanchedalmond;
+		background-color: rgb(150, 81, 2);
+		width: 50%;
+		height: 60px;
+        margin-left: 40px;
+		padding-top: 10px;
+		
 		
 	}
 	
@@ -167,82 +181,70 @@ h1 {
 	padding-top: 30px;
 	color: blanchedalmond;
 }
-	.header .navbar ul {
-		list-style: none;
-		font-size: 25px;
-		cursor: pointer;
-		color: #fff;
-		padding-bottom: 20px;
-		margin-top: 20px;
-		padding-left: 80px;
-	}
-	.header .navbar ul li {
-		display: inline-block;
-		width: 100px;
-		text-align: center;
-	} 
-	h2 {
-		display: flex;
-		justify-content: center;
-		margin-left: 90px;
-	}
+.header .navbar ul {
+	padding-left: 10px; 
+}
+.header .navbar ul li {
 	
-	h1 {
+	width: 40px;
+	font-size: 15px;
+	margin-left: 30px;
 	
-		font-size: 40px;
-		color: blanchedalmond;
-		background-color: rgb(150, 81, 2);
-		width: 400px;
-		height: 60px;
-		margin-left: 150px;
-		padding-left: 120px;
-		padding-top: 20px;
-	} 
+} 
+	
+	
+	
    
 	
 	
 	#imageContainer img {
-		width: 40%; 
-		margin-left: 10px; 
+		width: 50%; 
+		margin-left: 20px; 
 		padding-top: 10px; 
+		margin-top: 30px;
 	}
 	#table {
-		width: 300px;
+		width:80%;
 		opacity: 83%;
-		font-size: 25px;
+		font-size: 15px;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-		margin-left:2px; 
+		margin-left:20px; 
 		margin-right: auto;
+		margin-top: 30px;
 		color: white;
 		background: linear-gradient(to bottom, #634b2b, #a36d3f, #7e4814);
 	}
 	#all {
 		color: rgb(255, 255, 255);
-		font-size: 30px;
+		font-size: 20px;
 		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 		width: 50%;
 		margin-left: 100px; 
 		padding-left: 20px;
 	}
-	h1 {
-		width: 40%;
-		margin-left: 180px; 
-		padding-left: 20px; 
-	}
+	
         
     
     }
+	
 	@media only screen and (max-width: 360px) {
 		
 	
 		.main-container {
 			background-size: cover;
 			height: 1200px;
+            width: 52%;
 		}
 	
 		.header .navbar ul {
-			padding-left: 20px; 
+			padding-left: 10px; 
 		}
+		.header .navbar ul li {
+			
+			width: 30px;
+			font-size: 15px;
+			
+		} 
 	
 		#ti li {
 			width: 100%; 
@@ -250,35 +252,37 @@ h1 {
 		}
 	
 		h1 {
-			width: 50%;
-			margin-left: 100px; 
+			width: 70%;
+			margin-left: 50px; 
 			padding-left: 20px; 
+			font-size: 30px;
 		}
 	
 	
 	
 		#imageContainer img {
-			width: 40%; 
-			margin-left: 10px; 
+			width: 70%; 
+			
 			padding-top: 10px; 
 		}
 		#table {
-			width: 300px;
+			width: 70%;
 			opacity: 83%;
-			font-size: 25px;
+			font-size:15px;
 			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			margin-left:2px; 
+			margin-left: 10px;
 			margin-right: auto;
 			color: white;
 			background: linear-gradient(to bottom, #634b2b, #a36d3f, #7e4814);
 		}
 		#all {
 			color: rgb(255, 255, 255);
-			font-size: 30px;
 			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-			width: 50%;
-			margin-left: 100px; 
 			padding-left: 20px;
+			width: 70%;
+			margin-left: 50px; 
+			padding-left: 20px; 
+			font-size: 20px;
 		}
 	}
 	
