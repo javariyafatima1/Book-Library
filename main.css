@@ -3,7 +3,7 @@
 
 .main-container {
 
-	background:  url(https://www.neh.gov/sites/default/files/styles/medium/public/2018-06/openbooks.jpg?itok=CS057GV-) no-repeat;
+	background:  url(./images/1.jpeg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
@@ -156,7 +156,7 @@ h1 {
     }
 	.main-container {
 
-		background:  url(https://www.neh.gov/sites/default/files/styles/medium/public/2018-06/openbooks.jpg?itok=CS057GV-) no-repeat;
+		background:  url(./images/1.jpeg) no-repeat;
 		background-size: cover;
 		height: 1200px;
 		width: 53%;
