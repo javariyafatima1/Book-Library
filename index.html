@@ -14,7 +14,7 @@
 <body>
     <div class="main-container">
         <div class="header">
-
+            <div class="menu-icon">☰</div>
             <div class="navbar">
                 <ul>
                     <li>Home</li>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <h1>Books Library</h1>
-        <h2 id="all">All Books Show</h2>
+      
         <div style="display: flex;">
             <div id="imageContainer"></div>
             <div>
@@ -45,6 +45,17 @@
                 </table>
             </div>
         </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuIcon = document.querySelector(".menu-icon");
+                const navbar = document.querySelector(".header .navbar");
+        
+                menuIcon.addEventListener("click", function () {
+                    navbar.classList.toggle("active");
+                });
+            });
+        </script>
+        
         <script type="module" src="./allbooks.js"></script>
 </body>
 
